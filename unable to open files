@@ -1,0 +1,6 @@
+Error: unable to open file for writing:
+Sol:
+Use chmod command to allow read and write in specific folders: i.e. for var/www
+# sudo chmod -R o+rw /var/www
+
+... end
